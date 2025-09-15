@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.text{
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: bold;
+  font-size: 150px;
+} 
+@media (max-width: 740px ) {
+  .text {
+    font-size: 100px;
+  }
+}
+@media (max-width: 520px ) {
+  .text {
+    font-size: 70px;
+
+  }
+}  
+.small-text{
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
